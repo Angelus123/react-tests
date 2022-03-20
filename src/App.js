@@ -5,8 +5,9 @@ import Button from './Component/Button/Button';
 
 function App() {
   const [showDiv] = useState(true);
+  const role = 'appInfo';
   return (
-    <div className="App">
+    <div className="App" role={role}>
       <Input />
       <Button showDiv={showDiv} />
     </div>
